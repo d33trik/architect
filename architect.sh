@@ -19,7 +19,6 @@ main() {
 display_menu() {
 	local options=(
 		"Bakcup"
-		"Git"
 		"Exit"
 	)
 
@@ -35,8 +34,6 @@ execute_action() {
 		"Bakcup")
 			bash "${ARCHITECT_DIR}/bin/backup.sh"
 			;;
-		"Git")
-			echo "Git!"
 			;;
 		"Exit")
 			exit 0
