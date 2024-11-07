@@ -33,7 +33,7 @@ display_menu() {
 execute_action() {
 	case "$action" in
 		"Bakcup")
-			echo "Backup!"
+			bash "${ARCHITECT_DIR}/bin/backup.sh"
 			;;
 		"Git")
 			echo "Git!"
