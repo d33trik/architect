@@ -34,7 +34,6 @@ execute_action() {
 		"Bakcup")
 			bash "${ARCHITECT_DIR}/bin/backup.sh"
 			;;
-			;;
 		"Exit")
 			exit 0
 			;;
